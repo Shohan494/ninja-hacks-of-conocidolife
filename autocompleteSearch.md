@@ -1,4 +1,13 @@
 ```
+<!-- for autocomplete -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.1/bootstrap3-typeahead.min.js"></script>
+<!-- for autocomplete -->
+
+```
+
+
+```
     <div class="field">
     	{!! Form::Label('assigned_user', 'Assign User:') !!}
         <input class="typeahead form-control" type="text" name="userInput" value="">
